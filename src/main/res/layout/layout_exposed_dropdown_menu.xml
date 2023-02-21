@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_layout"
+    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:boxBackgroundColor="@android:color/transparent"
+    app:boxCollapsedPaddingTop="0dp"
+    app:boxCornerRadiusBottomEnd="8dp"
+    app:boxCornerRadiusBottomStart="8dp"
+    app:boxCornerRadiusTopEnd="8dp"
+    app:boxCornerRadiusTopStart="8dp"
+    app:boxStrokeColor="#888888"
+    app:errorEnabled="false"
+    app:expandedHintEnabled="false"
+    app:helperTextEnabled="true"
+    app:hintTextAppearance="@style/Widget.Theme.Wallet.EditText.Label.TextAppearance"
+    app:hintTextColor="@android:color/black">
+
+    <AutoCompleteTextView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        tools:ignore="LabelFor" />
+</com.google.android.material.textfield.TextInputLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Wallet.Fullscreen.DialogFragment" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="Theme.Wallet.Slide.Fullscreen.DialogFragment" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/DialogFragment.Slide</item>
+    </style>
+
+    <style name="Theme.Wallet.Scale.Fullscreen.DialogFragment" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/DialogFragment.Scale</item>
+    </style>
+
+    <style name="Theme.Wallet.Fullscreen.Fade.Transparent.DialogFragment" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/DialogFragment.Fade</item>
+    </style>
+
+    <style name="Theme.Wallet.Fullscreen.ProgressDialogFragment" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_margin_divided_4">5dp</dimen>
+    <dimen name="standard_margin_divided_2">10dp</dimen>
+    <dimen name="standard_margin">20dp</dimen>
+    <dimen name="standard_fading_edge_length">20dp</dimen>
+    <dimen name="standard_margin_x1.5">30dp</dimen>
+    <dimen name="standard_margin_x2">40dp</dimen>
+    <dimen name="standard_btn_margin_bottom">30dp</dimen>
+    <dimen name="menu_item_radius">10dp</dimen>
+    <dimen name="button_radius">8dp</dimen>
+    <dimen name="button_inner_radius">7dp</dimen>
+    <dimen name="gradient_button_inner_padding">2dp</dimen>
+    <dimen name="L01_00000000_H24">17sp</dimen>
+    <dimen name="L01_00000000_H25">18sp</dimen>
+    <dimen name="L03_00000000_H18">13sp</dimen>
+    <dimen name="L03_00000000_H20">14sp</dimen>
+    <dimen name="L07_00000000_H14">10sp</dimen>
+    <dimen name="L05_FFF_H16">11sp</dimen>
+    <dimen name="X02_FFFFFFF_H32">23sp</dimen>
+    <dimen name="X03_000_H32">25sp</dimen>
+    <dimen name="L04_C15C95_H21">15sp</dimen>
+    <dimen name="action_bar_top_padding">40dp</dimen>
+</resources>

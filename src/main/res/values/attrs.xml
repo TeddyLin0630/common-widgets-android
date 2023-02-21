@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TwoButtonTitleActionBar">
+        <attr name="containerBg" format="reference|color" />
+        <attr name="actionBarTitle" format="string" />
+        <attr name="leftBtnVisible" format="boolean" />
+        <attr name="rightBtnVisible" format="boolean" />
+        <attr name="titleVisible" format="boolean" />
+        <attr name="leftBtnSrc" format="reference|color" />
+        <attr name="rightBtnSrc" format="reference|color" />
+        <attr name="centerSrc" format="reference|color" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="srcTint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomInputField">
+        <attr name="android:inputType" />
+        <attr name="android:imeOptions" />
+        <attr name="android:maxLength" />
+        <attr name="android:digits" />
+        <attr name="android:hint" />
+        <attr name="errorEnabled" />
+        <attr name="endIconMode" />
+        <attr name="prefixText" />
+        <attr name="helperText" />
+        <attr name="endIconTint" />
+        <attr name="endIconDrawable" />
+        <attr name="strokeColor" />
+        <attr name="onlyAlphabetNumeric" format="boolean"/>
+        <attr name="android:selectAllOnFocus" format="boolean" />
+        <attr name="customLabelText" format="string" />
+        <attr name="exampleText" format="string" />
+        <attr name="trailingText" format="string" />
+        <attr name="textAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomPhotoButton">
+        <attr name="actionText" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="NoContentView">
+        <attr name="android:text" format="string" />
+        <attr name="android:textColor" format="reference|color" />
+        <attr name="android:textSize" format="dimension" />
+    </declare-styleable>
+</resources>

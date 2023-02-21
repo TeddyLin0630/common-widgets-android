@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Theme.Wallet.EditText.Label.TextAppearance" parent="">
+        <item name="colorPrimary">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@android:color/black</item>
+    </style>
+
+    <style name="Widget.custom.actionButton" parent="">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/gradient_button_bg</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/L01_00000000_H24</item>
+    </style>
+
+    <style name="Widget.custom.outlineActionButton" parent="">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/gradient_border_button_bg</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">@dimen/L01_00000000_H24</item>
+    </style>
+
+    <style name="CustomDialogFragment" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/DialogFragment.Scale</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetDialogStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogStyle" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="Widget.Custom.Subtitle" parent="">
+        <item name="android:textColor">#535353</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="Widget.Custom.Highlight.Text" parent="">
+        <item name="android:textColor">@color/purple</item>
+        <item name="android:textSize">@dimen/L04_C15C95_H21</item>
+    </style>
+
+    <style name="DialogFragment.Slide" parent="">
+        <item name="android:windowEnterAnimation">@anim/dialog_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_slide_out</item>
+    </style>
+
+    <style name="DialogFragment.Scale" parent="">
+        <item name="android:windowEnterAnimation">@anim/dialog_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_scale_out</item>
+    </style>
+
+    <style name="DialogFragment.Fade" parent="">
+        <item name="android:windowEnterAnimation">@anim/fade_in_300</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_200</item>
+    </style>
+
+    <style name="Custom.Action.Bar" parent="">
+        <item name="android:background">@drawable/common_gradient_bg</item>
+        <item name="android:paddingStart">@dimen/standard_margin</item>
+        <item name="android:paddingEnd">@dimen/standard_margin</item>
+    </style>
+
+    <style name="Custom.Amount.Text" parent="">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">#cccccc</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeStepGranularity">1sp</item>
+        <item name="autoSizeMaxTextSize">60sp</item>
+        <item name="autoSizeMinTextSize">24sp</item>
+    </style>
+</resources>
